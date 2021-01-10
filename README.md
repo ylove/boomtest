@@ -11,9 +11,9 @@ _Write an application that uses Twitter’s API to find the top 5 most famous pe
 
 ## Running
 ```
-git clone
+git clone git@github.com:ylove/boomtest.git
 npm install
 npm run build
 npm start
 ```
-This should create a server running at http://localhost:3001.
+This will create a server running at http://localhost:3001. 
