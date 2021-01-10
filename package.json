@@ -1,0 +1,26 @@
+{
+  "name": "boomtest",
+  "version": "1.0.0",
+  "description": "Boom Sports Coding Challenge Web App",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./client/main.js -o ./dist/client.js -t [ babelify ]]",    
+    "start": "node index.js"
+  },
+  "author": "Yitz Jordan",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "core-js": "^3.8.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babelify": "^10.0.0"
+  }
+}
