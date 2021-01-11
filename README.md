@@ -14,6 +14,7 @@ _Write an application that uses Twitter’s API to find the top 5 most famous pe
 ## Running
 ```
 git clone git@github.com:ylove/boomtest.git
+cd boomtest
 npm install
 npm run build
 npm start
