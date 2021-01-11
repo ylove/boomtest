@@ -2,9 +2,9 @@
 	var d = document;
 	var s = d.createElement('script');
 	if( !!window.fetch ){        
-		s.src = '/client/main.js';		        
+		s.src = '/dist/main.js';		        
 	} else {
-		s.src = '/dist/client.js';
+		s.src = '/dist/old_client.js';
 	}
 		d.head.appendChild(s);
 }();

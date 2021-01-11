@@ -34,7 +34,7 @@ app.get('/search', async (req, res) => {
 })
 
 app.get('/', (req, res) => {
-	res.send('<!DOCTYPE html><html><head><link rel="stylesheet" href="/client/main.css"></head><body><h1 class="header"></h1><script src="/client/loader.js"></script></body></html>');
+	res.send('<!DOCTYPE html><html><head><link rel="stylesheet" href="/dist/main.css"></head><body><h1 class="header"></h1><script src="/dist/loader.js"></script></body></html>');
 	res.end();
 });
 

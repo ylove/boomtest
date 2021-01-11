@@ -1,10 +1,10 @@
 const getTopFive = async function() {
-	const response = await fetch('/search');
-	const topUsers = await response.json();
-
 	const header = document.querySelector('.header');
 	header.innerHTML = 'Retrieving data...';
 
+	const response = await fetch('/search');
+	const topUsers = await response.json();
+	
 	if( topUsers ) {	
 	
 		const outerContainer = document.createElement('div');

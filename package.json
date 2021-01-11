@@ -4,7 +4,7 @@
   "description": "Boom Sports Coding Challenge Web App",
   "main": "index.js",
   "scripts": {
-    "build": "browserify ./client/main.js -o ./dist/client.js -t [ babelify ]]",    
+    "build": "browserify ./dist/main.js -o ./dist/old_client.js -t [ babelify ]]",    
     "start": "node index.js"
   },
   "author": "Yitz Jordan",
