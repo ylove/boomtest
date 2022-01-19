@@ -16,6 +16,7 @@ _Write an application that uses Twitter’s API to find the top 5 most famous pe
 
 ## Running
 ```
+git clone git@github.com:ylove/boomtest.git
 cd boomtest
 yarn install
 yarn build
