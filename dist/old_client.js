@@ -19,23 +19,23 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 
 var getTopFive = /*#__PURE__*/function () {
   var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee() {
-    var response, topUsers, header, outerContainer, refreshButton;
+    var header, response, topUsers, outerContainer, refreshButton;
     return regeneratorRuntime.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            _context.next = 2;
-            return fetch('/search');
-
-          case 2:
-            response = _context.sent;
-            _context.next = 5;
-            return response.json();
-
-          case 5:
-            topUsers = _context.sent;
             header = document.querySelector('.header');
             header.innerHTML = 'Retrieving data...';
+            _context.next = 4;
+            return fetch('/search');
+
+          case 4:
+            response = _context.sent;
+            _context.next = 7;
+            return response.json();
+
+          case 7:
+            topUsers = _context.sent;
 
             if (topUsers) {
               outerContainer = document.createElement('div');
